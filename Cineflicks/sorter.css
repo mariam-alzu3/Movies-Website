@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+    --md-dark-color: #1d1d1d;
+    --dark-color: #171717;
+    --light-dark-color: #292929;
+    --yellow-color:#d63f3f;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    min-height: 0vh;
+    background-color: var(--yellow-color);
+}
+
+.wrapper .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.menu-list {
+    color: #fff;
+    justify-content: left;
+    margin: 15px;
+    margin-left: 650px;
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+}
+
+.logo{
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--light-dark-color);
+}
+
+.logo p{
+    font-size: 2.5rem;
+    margin-left: 136px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.logo p span{
+    color: var(--yellow-color);
+}
+
+.menu-list-item {
+    color: rgb(255, 255, 255);
+    margin-right: 30px;
+  }
+
+.container{
+    display: flex;
+}
+
+center{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+b{
+    font-size: 28px;
+}
+
+#mainTable{
+    font-size: 19px;
+    color: #fff;
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+    vertical-align: middle;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    }
+     
+    #leftField{
+    width: 120px;
+    height: 150px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    }
+     
+    #rightField{
+    width: 120px;
+    height: 150px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    }
+     
+    .middleField{
+    width: 120px;
+    height: 70px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    }
+     
+    a{
+    /* color: #e097d9; */
+    color: #fff;
+    text-decoration : none;
+    }
+     
+    a:hover{
+    color: #8f8f8f;
+    }
+     
+    body {
+    color: #fff;
+    background-color: #171717;
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    }

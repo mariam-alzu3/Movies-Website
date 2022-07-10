@@ -24,7 +24,7 @@ a{
 
 img{
     width: 100%;
-    display: block;
+    display: inline-flex;    
 }
 
 .wrapper{
